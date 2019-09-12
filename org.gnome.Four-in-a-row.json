@@ -8,7 +8,8 @@
         "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
-        "--socket=pulseaudio"
+        "--socket=pulseaudio",
+        "--metadata=X-DConf=migrate-path=/org/gnome/Four-in-a-row/"
     ],
     "cleanup": [
         "/include",
