@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Four-in-a-row",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "four-in-a-row",
     "finish-args": [
@@ -37,8 +37,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/four-in-a-row.git",
-                "tag": "3.34.0",
-                "commit": "2c087c1294539a99353688d2d5650a424262a3cc"
+                "tag": "3.36.0",
+                "commit": "2356dc18757669474f1d09cdfd4b9ee1e66305ed"
             }]
         }
     ]
