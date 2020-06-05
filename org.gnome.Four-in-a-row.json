@@ -6,7 +6,7 @@
     "command": "four-in-a-row",
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--socket=pulseaudio",
         "--metadata=X-DConf=migrate-path=/org/gnome/Four-in-a-row/"
