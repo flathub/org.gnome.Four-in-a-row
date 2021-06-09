@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Four-in-a-row",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "four-in-a-row",
     "finish-args": [
@@ -19,6 +19,7 @@
         "/share/vala"
     ],
     "modules": [
+        "shared-modules/libcanberra/libcanberra.json",
         {
             "name" : "gsound",
             "buildsystem" : "autotools",
@@ -35,8 +36,8 @@
             "buildsystem": "meson",
             "sources": [{
                 "type": "archive",
-                "url": "https://download.gnome.org/sources/four-in-a-row/3.36/four-in-a-row-3.36.3.tar.xz",
-                "sha256": "b97e584dbf0b7687b1d4c236d9a6428c850156b35129b71c1ffcdb8736d086e1"
+                "url": "https://download.gnome.org/sources/four-in-a-row/3.38/four-in-a-row-3.38.1.tar.xz",
+                "sha256": "21d2769b804114d1cf0f337426fd88181ecefd6092cf562637eb37d716305182"
             }]
         }
     ]
