@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Four-in-a-row",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "four-in-a-row",
     "finish-args": [
