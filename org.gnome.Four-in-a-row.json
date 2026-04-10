@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Four-in-a-row",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "four-in-a-row",
     "finish-args": [
@@ -13,15 +13,11 @@
     ],
     "cleanup": [
         "/include",
+        "/lib/girepository-1.0",
         "/lib/pkgconfig",
-        "/man",
-        "/share/aclocal",
-        "/share/gtk-doc",
+        "/share/gir-1.0",
         "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
+        "/share/vala"
     ],
     "modules": [
         "shared-modules/libcanberra/libcanberra.json",
